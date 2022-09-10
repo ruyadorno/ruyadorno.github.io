@@ -1,0 +1,14 @@
+{
+  "name": "ruyadorno.github.io",
+  "version": "1.0.0",
+  "devDependencies": {
+    "clean-css": "^3.4.17",
+    "http-server": "^0.9.0",
+    "svgo": "^0.6.6"
+  },
+  "scripts": {
+    "css": "cleancss -o styles.min.css css/main.css",
+    "start": "http-server",
+    "svg": "svgo --datauri=enc img/logo.svg img/logo.min.svg"
+  }
+}
